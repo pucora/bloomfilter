@@ -5,8 +5,8 @@ go 1.23.0
 toolchain go1.24.5
 
 require (
-	github.com/velonetics/velonetics-gologging/v2 v2.1.1
-	github.com/velonetics/lura/v2 v2.11.0
+	github.com/velonetics/velonetics-gologging/v2 v2.0.0
+	github.com/velonetics/lura/v2 v2.0.0
 	github.com/tmthrgd/go-bitset v0.0.0-20180828125936-62ad9ed7ff29
 )
 
