@@ -25,8 +25,13 @@ var (
 // Config defines the configuration to be added to the Pucora gateway
 type Config struct {
 	bf_rpc.Config
-	TokenKeys []string `json:"token_keys"`
-	Headers   []string `json:"headers"`
+	TokenKeys                []string `json:"token_keys"`
+	Headers                  []string `json:"headers"`
+	RevokeServerPingURL      string   `json:"revoke_server_ping_url"`
+	RevokeServerPingInterval string   `json:"revoke_server_ping_interval"`
+	RevokeServerAPIKey       string   `json:"revoke_server_api_key"`
+	RevokeServerMaxWorkers   int      `json:"revoke_server_max_workers"`
+	RevokeServerMaxRetries   int      `json:"revoke_server_max_retries"`
 }
 
 // Register creates rejecter wrapping a bloomfilter given a config
@@ -59,6 +64,8 @@ func Register(
 	register(serviceName, rpcConfig.Port)
 
 	logger.Debug(logPrefix, "Service registered successfully")
+
+	StartRevokeClient(ctx, rpcConfig, logger)
 
 	return Rejecter{
 		BF:        bf.Bloomfilter(),
