@@ -7,7 +7,7 @@ import (
 	"github.com/pucora/bloomfilter/v2"
 	"github.com/pucora/bloomfilter/v2/rotate"
 	"github.com/pucora/bloomfilter/v2/rpc"
-	gologging "github.com/pucora/velonetics-gologging/v2"
+	gologging "github.com/pucora/pucora-gologging/v2"
 	"github.com/pucora/lura/v2/config"
 )
 

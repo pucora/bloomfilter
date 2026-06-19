@@ -5,7 +5,7 @@ go 1.23.0
 toolchain go1.24.5
 
 require (
-	github.com/pucora/velonetics-gologging/v2 v2.0.0
+	github.com/pucora/pucora-gologging/v2 v2.0.0
 	github.com/pucora/lura/v2 v2.0.0
 	github.com/tmthrgd/go-bitset v0.0.0-20180828125936-62ad9ed7ff29
 )
