@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/velonetics/bloomfilter/v2/rotate"
-	"github.com/velonetics/bloomfilter/v2/testutils"
+	"github.com/pucora/bloomfilter/v2/rotate"
+	"github.com/pucora/bloomfilter/v2/testutils"
 )
 
 func TestBFAdd_ok(t *testing.T) {

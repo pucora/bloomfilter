@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/rpc"
 
-	"github.com/velonetics/bloomfilter/v2"
-	"github.com/velonetics/bloomfilter/v2/rotate"
+	"github.com/pucora/bloomfilter/v2"
+	"github.com/pucora/bloomfilter/v2/rotate"
 )
 
 func Example_integration() {

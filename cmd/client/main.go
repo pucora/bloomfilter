@@ -17,7 +17,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/velonetics/bloomfilter/v2/rpc/client"
+	"github.com/pucora/bloomfilter/v2/rpc/client"
 )
 
 func main() {

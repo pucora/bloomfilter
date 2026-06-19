@@ -5,7 +5,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/velonetics/bloomfilter/v2/rotate"
+	"github.com/pucora/bloomfilter/v2/rotate"
 )
 
 // Config type containing a sliding bloomfilter set and a port

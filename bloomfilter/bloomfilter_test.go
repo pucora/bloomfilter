@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/velonetics/bloomfilter/v2"
-	"github.com/velonetics/bloomfilter/v2/testutils"
+	"github.com/pucora/bloomfilter/v2"
+	"github.com/pucora/bloomfilter/v2/testutils"
 )
 
 func TestBloomfilter(t *testing.T) {

@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/velonetics/bloomfilter/v2"
-	bbloomfilter "github.com/velonetics/bloomfilter/v2/bloomfilter"
+	"github.com/pucora/bloomfilter/v2"
+	bbloomfilter "github.com/pucora/bloomfilter/v2/bloomfilter"
 )
 
 // New creates a new sliding set of 3 bloomfilters

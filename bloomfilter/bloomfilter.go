@@ -11,7 +11,7 @@ import (
 	"encoding/gob"
 	"fmt"
 
-	"github.com/velonetics/bloomfilter/v2"
+	"github.com/pucora/bloomfilter/v2"
 	"github.com/tmthrgd/go-bitset"
 )
 

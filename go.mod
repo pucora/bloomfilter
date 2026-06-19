@@ -1,12 +1,12 @@
-module github.com/velonetics/bloomfilter/v2
+module github.com/pucora/bloomfilter/v2
 
 go 1.23.0
 
 toolchain go1.24.5
 
 require (
-	github.com/velonetics/velonetics-gologging/v2 v2.0.0
-	github.com/velonetics/lura/v2 v2.0.0
+	github.com/pucora/velonetics-gologging/v2 v2.0.0
+	github.com/pucora/lura/v2 v2.0.0
 	github.com/tmthrgd/go-bitset v0.0.0-20180828125936-62ad9ed7ff29
 )
 

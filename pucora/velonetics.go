@@ -1,5 +1,5 @@
-// Package velonetics registers a bloomfilter given a config and registers the service with consul.
-package velonetics
+// Package pucora registers a bloomfilter given a config and registers the service with consul.
+package pucora
 
 import (
 	"context"
@@ -7,11 +7,11 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/velonetics/bloomfilter/v2"
-	bf_rpc "github.com/velonetics/bloomfilter/v2/rpc"
-	"github.com/velonetics/bloomfilter/v2/rpc/server"
-	"github.com/velonetics/lura/v2/config"
-	"github.com/velonetics/lura/v2/logging"
+	"github.com/pucora/bloomfilter/v2"
+	bf_rpc "github.com/pucora/bloomfilter/v2/rpc"
+	"github.com/pucora/bloomfilter/v2/rpc/server"
+	"github.com/pucora/lura/v2/config"
+	"github.com/pucora/lura/v2/logging"
 )
 
 // Namespace for bloomfilter
@@ -22,7 +22,7 @@ var (
 	errWrongConfig = errors.New("invalid config for the bloomfilter")
 )
 
-// Config defines the configuration to be added to the Velonetics gateway
+// Config defines the configuration to be added to the Pucora gateway
 type Config struct {
 	bf_rpc.Config
 	TokenKeys []string `json:"token_keys"`

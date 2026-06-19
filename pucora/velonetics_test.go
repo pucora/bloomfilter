@@ -1,14 +1,14 @@
-package velonetics
+package pucora
 
 import (
 	"context"
 	"testing"
 
-	"github.com/velonetics/bloomfilter/v2"
-	"github.com/velonetics/bloomfilter/v2/rotate"
-	"github.com/velonetics/bloomfilter/v2/rpc"
-	gologging "github.com/velonetics/velonetics-gologging/v2"
-	"github.com/velonetics/lura/v2/config"
+	"github.com/pucora/bloomfilter/v2"
+	"github.com/pucora/bloomfilter/v2/rotate"
+	"github.com/pucora/bloomfilter/v2/rpc"
+	gologging "github.com/pucora/velonetics-gologging/v2"
+	"github.com/pucora/lura/v2/config"
 )
 
 func TestRegister_ok(t *testing.T) {

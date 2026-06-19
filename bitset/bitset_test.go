@@ -3,8 +3,8 @@ package bitset
 import (
 	"testing"
 
-	"github.com/velonetics/bloomfilter/v2"
-	"github.com/velonetics/bloomfilter/v2/testutils"
+	"github.com/pucora/bloomfilter/v2"
+	"github.com/pucora/bloomfilter/v2/testutils"
 )
 
 func TestBitSet(t *testing.T) {

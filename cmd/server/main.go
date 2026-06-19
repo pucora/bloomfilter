@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/velonetics/bloomfilter/v2"
-	"github.com/velonetics/bloomfilter/v2/rotate"
-	"github.com/velonetics/bloomfilter/v2/rpc"
-	"github.com/velonetics/bloomfilter/v2/rpc/server"
+	"github.com/pucora/bloomfilter/v2"
+	"github.com/pucora/bloomfilter/v2/rotate"
+	"github.com/pucora/bloomfilter/v2/rpc"
+	"github.com/pucora/bloomfilter/v2/rpc/server"
 )
 
 func main() {

@@ -5,4 +5,4 @@ name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_root = "github.com/velonetics/bloomfilter"
+  import_root = "github.com/pucora/bloomfilter"

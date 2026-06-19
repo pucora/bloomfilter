@@ -7,7 +7,7 @@ import (
 	"net"
 	"net/rpc"
 
-	rpc_bf "github.com/velonetics/bloomfilter/v2/rpc"
+	rpc_bf "github.com/pucora/bloomfilter/v2/rpc"
 )
 
 // New creates an rpc bloomfilter and launches a serving goroutine

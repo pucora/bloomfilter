@@ -4,7 +4,7 @@ package testutils
 import (
 	"testing"
 
-	"github.com/velonetics/bloomfilter/v2"
+	"github.com/pucora/bloomfilter/v2"
 )
 
 var (

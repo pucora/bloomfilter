@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/velonetics/bloomfilter/v2"
-	bbloomfilter "github.com/velonetics/bloomfilter/v2/bloomfilter"
-	"github.com/velonetics/bloomfilter/v2/testutils"
+	"github.com/pucora/bloomfilter/v2"
+	bbloomfilter "github.com/pucora/bloomfilter/v2/bloomfilter"
+	"github.com/pucora/bloomfilter/v2/testutils"
 )
 
 func TestRotate_Union_ok(t *testing.T) {

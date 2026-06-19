@@ -11,7 +11,7 @@ assignees: ''
 A clear and concise description of what the bug is.
 
 **Your configuration file**
-The content of your `velonetics.json`. When using the flexible configuration option, the computed file can be generated using `FC_OUT=out.json`
+The content of your `pucora.json`. When using the flexible configuration option, the computed file can be generated using `FC_OUT=out.json`
 ```
 {
   "version": 2,
@@ -22,13 +22,13 @@ The content of your `velonetics.json`. When using the flexible configuration opt
 How did you start the software?
 ```
 #Example:
-docker run --rm -it -v $PWD:/etc/velonetics \
+docker run --rm -it -v $PWD:/etc/pucora \
         -e FC_ENABLE=1 \
-        -e FC_SETTINGS="/etc/velonetics/config/settings" \
-        -e FC_PARTIALS="/etc/velonetics/config/partials" \
+        -e FC_SETTINGS="/etc/pucora/config/settings" \
+        -e FC_PARTIALS="/etc/pucora/config/partials" \
         -e FC_OUT=out.json \
-        velonetics/velonetics \
-        run -c /etc/velonetics/config/velonetics.json -d
+        pucora/pucora \
+        run -c /etc/pucora/config/pucora.json -d
 ```
 **Expected behavior**
 A clear and concise description of what you expected to happen.

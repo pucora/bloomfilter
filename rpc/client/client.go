@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/rpc"
 
-	"github.com/velonetics/bloomfilter/v2/rotate"
-	rpc_bf "github.com/velonetics/bloomfilter/v2/rpc"
+	"github.com/pucora/bloomfilter/v2/rotate"
+	rpc_bf "github.com/pucora/bloomfilter/v2/rpc"
 )
 
 // Bloomfilter rpc client type
